@@ -1,0 +1,10 @@
+li {
+  list-style-type: none;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  gap: 20px;
+}
